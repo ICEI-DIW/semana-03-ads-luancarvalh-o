@@ -16,9 +16,9 @@ Nessa atividade, você deverá montar a página inicial do projeto escolhido, a 
 
 ## Print do esboço criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](<Captura de tela 2025-03-14 202122.png>) >>
 
 
 ## Print da home-page criada
 
-<<  COLOQUE A IMAGEM AQUI >>
+<<  ![alt text](<Captura de tela 2025-03-14 202122-1.png>) >>
