@@ -1,3 +1,4 @@
+
 body{
     display: flex;
     background: black;
@@ -83,6 +84,19 @@ align-items: center;
     font-weight: bold;
 }
 
+.catalogo{
+    display: flex;
+    gap: 20px; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.filme{
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover; 
+}
+
 .todoconteudopg {
     padding: 20px 0;
 }
@@ -149,4 +163,41 @@ align-items: center;
     margin: 0 auto; 
     border-radius: 10px; 
     
+}
+
+@media (min-width: 768px) {
+    .catalogo {
+        flex-direction: row;
+        justify-content: space-evenly; 
+    }
+
+    .imagem {
+        width: 200px; 
+        height: 300px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .catalogo {
+        justify-content: center;
+    }
+
+    .imagem {
+        width: 180px; 
+        height: 250px;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalogo {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .imagem {
+        width: 100px; 
+        height: 150px;
+    }
 }
